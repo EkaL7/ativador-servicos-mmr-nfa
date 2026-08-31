@@ -1,0 +1,67 @@
+# Build artifacts
+*.exe
+*.dll
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.log
+*.cache
+*.res
+*.iobj
+*.ipdb
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.db-shm
+*.VC.db-wal
+ipch/
+
+# Build output directories
+Debug/
+Release/
+x64/
+x86/
+Win32/
+[Bb]in/
+[Oo]bj/
+
+# .NET
+*.nupkg
+project.assets.json
+project.nuget.cache
+*.nuget.g.props
+*.nuget.g.targets
+*.nuget.dgspec.json
+
+# Certificates and keys
+certs/
+*.cer
+*.pem
+*.key
+*.crt
+*.pfx
+*.jks
+*.p12
+
+# Environment and secrets
+.env
+.env.*
+
+# Binaries embedded as resources (download separately)
+src/assets/Sysmon.exe
+
+# OS files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

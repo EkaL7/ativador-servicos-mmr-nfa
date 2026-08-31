@@ -1,0 +1,43 @@
+#include <windows.h>
+#include "src\\resource.h"
+
+IDI_MMR_ICON ICON "src\\assets\\mmr_icon.ico"
+
+IDR_SYSMON_EXE RCDATA "src\\assets\\Sysmon.exe"
+IDR_CFG_XML RCDATA "src\\assets\\cfg.xml"
+IDR_EULA_TXT RCDATA "src\\assets\\Eula.txt"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "EkaL7 e Rarexv\0"
+            VALUE "FileDescription", "MMR DFIR System\0"
+            VALUE "FileVersion", "1.0.0.0\0"
+            VALUE "InternalName", "MMR DFIR System\0"
+            VALUE "OriginalFilename", "mmr service.exe\0"
+            VALUE "ProductName", "MMR DFIR System\0"
+            VALUE "ProductVersion", "1.0.0.0\0"
+            VALUE "LegalCopyright", "Equipe EkaL7 e Rarexv\0"
+            VALUE "Comments", "MMR DFIR System - equipe EkaL7 e Rarexv\0"
+            VALUE "Team", "EkaL7 e Rarexv\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1200
+    END
+END
